@@ -1,0 +1,13 @@
+@media screen and (max-width: 500px) { 
+    div{width:auto;height:auto} 
+    /* div{font-size:120%;} */
+    body{font-size:100%;}
+  }
+  @media screen and (max-device-width: 800px) {
+    /* html { background: url("/Users/adriansarbu/chestii/poza.jpg") #000 no-repeat center center fixed; } */
+    /* #bgvid { display: none; } */
+    div{width:auto;height:auto}
+  }
+  body {
+    background-image: url("/Users/adriansarbu/chestii/background.jpg");
+}

@@ -1,0 +1,130 @@
+footer {
+	position: relative;
+	height: 30px;
+    width: 100%;
+    background:rgba(0,0,0,0.5);
+}
+
+p.copyright {
+	position: absolute;
+	width: 100%;
+    color: #fff;
+    line-height: -50px;
+    font-size: 0.7em;
+  text-align: center;
+  float:center;
+	top:-8px;
+}
+
+body {
+  margin: 0;
+  background: rgb(0, 0, 0); 
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ /* background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat; */
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+#polina { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:2rem;
+  float: right;
+  /* font-size: 1.2rem; */
+  font-size:120%;
+}
+h1 {
+  /* font-size: 3rem; */
+  font-size:130%;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+#polina button { 
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none; 
+  margin: 1rem auto; 
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+#polina button:hover { 
+   background: rgba(0,0,0,0.5);
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background; 
+}
+a:hover{
+  background:rgba(0,0,0,0.9);
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+  div{font-size:120%;}
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url("/Users/adriansarbu/chestii/poza.jpg") #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+  div{font-size:150%;}
+}
+/* Shine
+.img figure {
+	position: relative;
+}
+.img figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.img figure:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+   */
